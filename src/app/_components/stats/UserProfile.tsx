@@ -1,3 +1,5 @@
+'useclient';
+
 import React from "react";
 import { Mail, Hash, Phone, User, BookOpen } from "lucide-react";
 import DomainSelect from "./DomainSelect";

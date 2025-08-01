@@ -1,10 +1,12 @@
+'useclient';
+
 import React, { useState } from "react";
 import VideoCard from "./VideoCard"; // Make sure this path is correct
 import DomainSelect from "../stats/DomainSelect";
 import ProfileSelect from "../stats/ProfileSelect";
 
 // Example static data; in real apps, replace with API data
-const videos = Array.from({ length: 20 }, (_, i) => ({
+const videos = Array.from({ length: 20 }, (_, ) => ({
   role: "Product Manager",
   date: "10th Aug 2025",
   duration: "15 min",

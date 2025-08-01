@@ -30,7 +30,7 @@ const Landing3 = () => {
                 Resume & Role Match Score
               </h3>
               <p className="leading-relaxed text-gray-600">
-                See how well your resume aligns with the job you're targeting.
+                See how well your resume aligns with the job you&apos;re targeting.
               </p>
             </div>
           </div>

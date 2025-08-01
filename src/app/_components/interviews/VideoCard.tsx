@@ -1,3 +1,6 @@
+'useclient';
+
+
 import { CalendarHeart, Clock, PlayCircle } from "lucide-react";
 
 interface VideoCardProps {

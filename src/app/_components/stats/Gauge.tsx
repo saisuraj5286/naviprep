@@ -1,3 +1,4 @@
+'useclient';
 
 type Props = {
   value: number; // Score value (0-100)

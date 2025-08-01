@@ -1,6 +1,6 @@
-"use strict";
+'useclient';
 
-import React, { use } from "react";
+import React from "react";
 import Image from "next/image";
 
 const Landing1 = () => {

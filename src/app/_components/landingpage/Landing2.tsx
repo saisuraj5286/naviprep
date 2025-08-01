@@ -1,3 +1,6 @@
+'useclient';
+
+
 import React from "react";
 
 const Landing2 = () => {
@@ -14,10 +17,10 @@ const Landing2 = () => {
 
           <div className="absolute top-40 left-10" >
             <h1 className="text-6xl ">
-              Understand the <span>'why'</span>
+              Understand the <span>&apos;why&apos;</span>
             </h1>
             <p className="text-xl">
-              So you don't <span className=" text-blue-500"> just prepare for questions 
+              So you don&apos;t <span className=" text-blue-500"> just prepare for questions 
               </span>  you prepare for the experience
             </p>
           </div>
@@ -50,7 +53,7 @@ const Landing2 = () => {
                 Domain-Driven Scenarios
               </h3>
               <p className="leading-relaxed text-gray-600">
-                Whether it's core engineering, software, business, or creative
+                Whether it&apos;s core engineering, software, business, or creative
                 fields - we adapt to your domain.
               </p>
             </div>

@@ -1,4 +1,5 @@
-// components/NotificationPreferences.tsx
+'useclient';
+
 import { AtSign, MessageSquare } from "lucide-react";
 import { RiWhatsappLine } from "react-icons/ri";
 

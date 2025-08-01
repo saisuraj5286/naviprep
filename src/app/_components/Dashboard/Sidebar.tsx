@@ -1,3 +1,5 @@
+'useclient';
+
 import React from "react";
 import { TrendingUp, CheckSquare, LogOut, Grid3x3, Settings, Bell } from "lucide-react";
 import { usePathname, useRouter } from "next/navigation";

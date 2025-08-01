@@ -1,3 +1,4 @@
+'useclient';
 import React from 'react';
 import { ArrowLeft, HelpCircle } from 'lucide-react';
 
