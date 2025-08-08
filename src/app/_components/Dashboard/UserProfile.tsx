@@ -2,8 +2,8 @@
 
 import React from "react";
 import { Mail, Hash, Phone, User, BookOpen } from "lucide-react";
-import DomainSelect from "./DomainSelect";
-import ProfileSelect from "./ProfileSelect";
+import DomainSelect from "../stats/DomainSelect";
+import ProfileSelect from "../stats/ProfileSelect";
 
 const UserProfile: React.FC = () => {
   return (
@@ -24,7 +24,7 @@ const UserProfile: React.FC = () => {
               Anisha Kumar
             </h2>
 
-            <div className="grid grid-cols-2 gap-x-8 gap-y-3">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-3">
               <div className="flex items-center">
                 <div className="w-6 h-6 bg-gray-800 rounded flex items-center justify-center mr-3">
                   <Mail className="w-4 h-4 text-white" />

@@ -17,7 +17,7 @@ const Landing2 = () => {
 
           <div className="absolute top-40 left-10" >
             <h1 className="text-6xl ">
-              Understand the <span>&apos;why&apos;</span>
+              Understand the <span> &apos;why&apos; </span>
             </h1>
             <p className="text-xl">
               So you don&apos;t <span className=" text-blue-500"> just prepare for questions 

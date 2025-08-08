@@ -1,6 +1,6 @@
 'useclient';
 
-import { AtSign, MessageSquare } from "lucide-react";
+import { AtSign, Copy, MessageSquare } from "lucide-react";
 import { RiWhatsappLine } from "react-icons/ri";
 
 import React, { useState } from "react";
@@ -35,11 +35,11 @@ export default function NotificationPreferences() {
   }
 
   return (
-    <div className="mx-auto min-w-full  flex-1 px-6  ">
+    <div className="mx-auto   flex-1 px-6  ">
       <div className="flex justify-between ">
-        <div>
-          <h1 className="mb-2 text-2xl font-bold">Notification preferences</h1>
-          <p className="mb-8 text-gray-500">
+        <div className="border-b border-gray-300">
+          <h1 className=" text-2xl font-bold">Notification preferences</h1>
+          <p className="py-2 text-gray-500">
             Get emails to found out what is going on when you are not online.
             You can turn them off anytime.
           </p>
@@ -60,7 +60,7 @@ export default function NotificationPreferences() {
         </div>
       </div>
 
-      <div>
+      <div className="py-3">
         <h2 className="mb-2 font-semibold">Notifications from us</h2>
         <p className="mb-4 text-sm text-gray-500">
           Receive the latest news, updates, and industry tutorials from us.
@@ -89,23 +89,20 @@ export default function NotificationPreferences() {
       </div>
       <div className="mt-8">
         <div className="mb-2 text-sm text-gray-400">Or share with link</div>
-        <div className="relative">
+        <div className="flex w-[70%]  border border-gray-300 bg-gray-100 rounded-lg shadow ">
           <input
             type="text"
             readOnly
-            className="w-full cursor-not-allowed rounded-lg border border-gray-300 bg-gray-100 px-4 py-3 pr-10 text-gray-400 shadow"
-            value="https://www.figma.com/file/NlfvNfYyYgR9mAQasassdsada/Share..." // Example only
+            className="w-full cursor-not-allowed  px-4 py-3 pr-10 text-gray-400 "
+            value="https://www.figma.com/file/NlfvNfYyYgR9mAQasassdsada/Share..." 
           />
           <button
             type="button"
-            className="absolute top-2 right-2 text-gray-400 hover:text-gray-700"
+            className="px-3  text-gray-400 hover:text-gray-700"
             tabIndex={-1}
           >
-            {/* Paste your clipboard icon here, e.g. Lucide/Clipboard */}
-            <svg width="20" height="20" fill="none" stroke="currentColor">
-              <rect x="4" y="4" width="12" height="12" rx="2" />
-              <path d="M8 2v2h4V2" />
-            </svg>
+           
+            <Copy/>
           </button>
         </div>
       </div>

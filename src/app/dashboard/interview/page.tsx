@@ -1,25 +1,23 @@
-'use client';
+"use client";
 
-import React, { useState } from 'react'
-import Sidebar from '../../_components/Dashboard/Sidebar'
-import Interviewgrid from '../../_components/interviews/Interviewgrid';
-
+import React, { useState } from "react";
+import Sidebar from "../../_components/Dashboard/Sidebar";
+import Interviewgrid from "../../_components/interviews/Interviewgrid";
 
 const page = () => {
-    const [activeMenuItem, setActiveMenuItem] = useState('dashboard');
+  const [activeMenuItem, setActiveMenuItem] = useState("dashboard");
   return (
     <div>
-      <div className="min-h-screen bg-gray-50 flex">
-      {/* Sidebar */}
-      <Sidebar/>
-      
-      {/* Main Content */}
-        <div className="p-10">
-      <Interviewgrid/>
-    </div>
-    </div>
-    </div>
-  )
-}
+      <div className="flex min-h-screen bg-gray-50">
+        
 
-export default page
+        {/* Main Content */}
+        <div className="p-10 mx-auto">
+          <Interviewgrid />
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default page;
